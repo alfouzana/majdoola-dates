@@ -1,7 +1,7 @@
 import "./style.css";
 import products from "./products.json";
 
-const img = (url) => `https://media.zid.store/cdn-cgi/image/w=600,q=80,f=auto/${url}`;
+const img = (url) => url;
 
 const grid = document.querySelector("[data-products]");
 grid.innerHTML = products
